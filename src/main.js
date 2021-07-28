@@ -5,6 +5,8 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
+Vue.prototype.$imgDir = `${process.env.VUE_APP_SITE_URL}/wp-content/themes/myPortfolio/img/`;
+
 new Vue({
   router,
   store,

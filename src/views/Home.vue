@@ -12,7 +12,7 @@
       <div class="d-flex flex-column">
 
         <div class="profile">
-          <img :src="site_url +'/wp-content/themes/myPortfolio/img/profile-img.jpg'"
+          <img :src="$imgDir +'profile-img.jpg'"
                alt="" class="img-fluid rounded-circle">
           <h1 class="text-light">
             <a href="index.html">Михаил Тесля</a>
@@ -769,14 +769,12 @@
 export default {
   data() {
     return {
-      site_url: process.env.VUE_APP_SITE_URL,
     };
   },
   name: 'Home',
   components: {
   },
   mounted() {
-    console.log(this.site_url);
   },
 };
 </script>
