@@ -5,10 +5,16 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
-Vue.prototype.$imgDir = `${process.env.VUE_APP_SITE_URL}/wp-content/themes/myPortfolio/img/`;
+Vue.prototype.$siteUrl = process.env.VUE_APP_SITE_URL;
+Vue.prototype.$imgDir = `${Vue.prototype.$siteUrl}/wp-content/themes/myPortfolio/img/`;
 
 new Vue({
   router,
   store,
+  data() {
+    return {
+      test: 'test',
+    };
+  },
   render: (h) => h(App),
 }).$mount('#app');

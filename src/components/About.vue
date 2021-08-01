@@ -74,32 +74,32 @@ export default {
 };
 </script>
 
-<style scoped>
-/*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
-}
+<style>
+/*!*--------------------------------------------------------------*/
+/*  # About*/
+/*  --------------------------------------------------------------*!*/
+/*.about .content h3 {*/
+/*  font-weight: 700;*/
+/*  font-size: 26px;*/
+/*  color: #173b6c;*/
+/*}*/
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
+/*.about .content ul {*/
+/*  list-style: none;*/
+/*  padding: 0;*/
+/*}*/
 
-.about .content ul li {
-  padding-bottom: 10px;
-}
+/*.about .content ul li {*/
+/*  padding-bottom: 10px;*/
+/*}*/
 
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #149ddd;
-}
+/*.about .content ul i {*/
+/*  font-size: 20px;*/
+/*  padding-right: 2px;*/
+/*  color: #149ddd;*/
+/*}*/
 
-.about .content p:last-child {
-  margin-bottom: 0;
-}
+/*.about .content p:last-child {*/
+/*  margin-bottom: 0;*/
+/*}*/
 </style>

@@ -5,7 +5,7 @@
       <div class="profile">
         <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light">
-          <a href="index.html">Михаил Тесля</a>
+          <a v-if="fio" href="index.html">{{ fio }}</a>
         </h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -65,6 +65,11 @@
 
 <script>
 export default {
+  props: {
+    fio: {
+      default: null,
+    },
+  },
 };
 </script>
 
